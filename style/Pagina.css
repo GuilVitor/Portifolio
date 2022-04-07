@@ -1,0 +1,1801 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: #23232e;
+
+}
+
+
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: 0.7;
+    color: crimson;
+    cursor: pointer;
+}
+.logo span{
+    color: crimson;
+}
+
+.logo{
+    color: white;
+    font-size: 24px;
+    letter-spacing: 4px;
+    font-size: 30px;
+    margin: auto;
+}
+.fixoo{
+    background: #23232e;
+   max-width: 1000px;
+   height: 30vh;
+   margin: auto;
+   text-align: center;
+}
+nav{
+    display: flex;
+    font-family: system-ui,-apple-system,Helvetica,Arial, sans-serif;
+    height: 10vh;
+    background: #23232e;
+    max-width: 1000px;
+    margin-left: 0px;
+    position: fixed;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    
+}
+.nav-list li{
+    letter-spacing: 2px;
+    margin-left: 53.5px;
+    
+}
+
+.mobile-menu{
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu div{
+width: 32px;
+height: 2px;
+background: #fff;
+margin: 8px;
+}
+
+
+.nav-list.active {
+    display: block;
+}
+
+/*  parte de menu   */
+
+
+
+main{
+    background: #23232e;
+    background-size: cover;
+    max-width: 100vh;
+    scroll-snap-align: start;
+    max-width: 1000px;
+    text-align: center;
+    margin: auto;
+
+
+}
+
+.informacao{
+    color: rgb(0, 0, 0);
+}
+.nome{
+    width: 650px;
+    margin-left: 120px;
+    padding-top: 200px;
+    height: 50vh;
+}
+
+.informacao h1{
+    font-size: 75px;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+}
+
+.informacao h1:hover{
+    cursor: pointer;
+    color: #fff;
+}
+.informacao h2:hover{
+    cursor: pointer;
+    color: crimson;
+}
+.informacao h3:hover{
+    cursor: pointer;
+    color: crimson;
+}
+.informacao span:hover{
+    cursor: pointer;
+    color: crimson;
+}
+
+.informacao h2{
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+
+
+}
+.informacao h3{
+    font-size: 35px;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+
+
+}
+main button{
+    margin-top: 40px;
+    width: 300px;
+    height: 70px;
+    color: #fff;
+    background-color: crimson;
+    border-radius: 10px;
+    float: right;
+}
+main button:hover{
+    cursor: pointer;
+    background-color: #fff;
+     color: crimson;
+}
+/* incio da pagina */
+
+
+
+@media  (max-width:716px) and (min-width:568px){
+    
+
+.informacao{
+    color: rgb(0, 0, 0);
+}
+.nome{
+    width: 400px;
+    margin-left: 90px;
+    padding-top: 100px;
+}
+
+.informacao h1{
+    font-size: 59px;
+    color: #fff;
+
+}
+.informacao h2{
+    margin-top: 10px;
+    font-size: 35px;
+    color: #fff;
+
+}
+.informacao h3{
+    font-size: 30px;
+    color: #fff;
+
+}
+main button{
+    margin-top: 50px;
+    width: 400px;
+    height: 70px;
+    color: #fff;
+    background-color: crimson;
+    border-radius: 10px;
+}
+main button:hover{
+    cursor: pointer;
+    background-color: #fff;
+     color: crimson;
+}
+
+}
+
+/* informaçao e menu mobile */
+
+
+html{
+    scroll-snap-type: block proximity;
+}
+
+.child1{
+    min-height: 100vh;
+    font-size: 5rem;
+    scroll-snap-align: start;
+    background: #23232e;
+}
+.fixo{
+    background: #23232e;
+    min-height: 80vh;
+    max-width: 1000px;
+    text-align: center;
+    margin: auto;
+
+}
+.image{
+    width: 450px;
+    height: 400px;
+    background-color: white;
+    float: right;
+}
+.img{
+    background:url(./IMG_20211213_132333_009-removebg.png);
+    background-size: cover; 
+    width: 450px;
+    height: 300px;
+    padding-top: 100px;
+}
+.oqfaco{
+   width: 500px;
+   height: 400px;
+   float: left;
+   font-family: sans-serif;
+}
+
+.oqfaco h4:hover{
+    cursor: pointer;
+     color: crimson;
+}
+.oqfaco span:hover{
+    cursor: pointer;
+     color: #fff;
+}
+.oqfaco h3:hover{
+    cursor: pointer;
+     color: crimson;
+}
+
+.oqfaco h3{
+    margin-top: 80px;
+    font-size: 19px;
+    color: #fff;
+
+}
+.oqfaco h4{
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #fff;
+
+}
+.oqfaco span{
+       color: crimson;
+}
+
+.oqfaco button{
+    margin-top: 40px;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    background-color: crimson;
+    border-radius: 10px;
+}
+.oqfaco button:hover{
+    cursor: pointer;
+    background-color: #fff;
+     color: crimson;
+}
+
+/* informaçao Sobre me */
+
+
+
+.child2{
+    min-height: 100vh;
+    font-size: 5rem;
+    scroll-snap-align: start;
+    background-color: #23232e;
+}
+.child3{
+    min-height: 100vh;
+    font-size: 5rem;
+    scroll-snap-align: start;
+    background-color: crimson;
+
+}
+.child4{
+    min-height: 100vh;
+    font-size: 5rem;
+    scroll-snap-align: start;
+    background-color: #23232e;
+
+
+}
+.child:nth-of-type(2n){
+    background-color: rgb(193, 71, 197);
+
+}
+/* animaçao SCroll */
+
+
+.fixo2{
+    max-width: 1000px;
+    max-height: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+
+.todos-alunos{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    height: 100vh;
+    overflow: scroll;
+    background-color: crimson
+}
+.aluno1 img{
+    width: 60%;
+    margin-top:10px;
+    height: 100vh;
+    float: left;
+
+    
+}
+
+.aluno1{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+}
+.img1{
+    background-color: crimson;
+   width: 200px;
+   height: 200px;
+   float: left;
+   margin-left: 10px;
+
+}
+.img1 img{
+    background-color: #23232e;
+    width: 200px;
+    height: 200px;
+    float: left;
+
+ }
+ .linkedin{
+    background-color: #23232e;
+    float: left;
+    margin-left: 20px;
+     width: 490px;
+     height: 200px;
+     font-size: 18px;
+     color: #fff;
+     font-family: sans-serif;
+     margin-top: 10px;
+ }
+ .link{
+     width: 100px;
+     height: 100px;
+     background-color: white;
+     margin: auto;
+     text-align: center;
+     margin-top: 10px;
+ }
+ .link img{
+    width: 100%;
+    height: 100px;
+ }
+ .link button{
+     margin-top: 15px;
+     font-size: 12px;
+     cursor: pointer;
+     height: 30px;
+     background-color: crimson;
+     border-radius: 5px;
+     color: #fff;
+ }
+ .link button:hover{
+     cursor: pointer;
+     background-color: #fff;
+     color: crimson;
+ }
+
+
+ /* Pessoas da minha turma do cursos */
+
+
+
+
+ .fixo3{
+    max-width: 1000px;
+    max-height: 900px;
+    text-align: center;
+    margin-top: 20px;
+    margin: auto;
+    background-color: #23232e;
+}
+
+
+
+
+ .especialidade{
+      max-width: 1000px;
+      height: 90vh;
+      text-align: center;
+      margin: auto;
+
+}
+
+.sabermais{
+    width: 80%;
+    margin-top: -50px;
+    height: 400px;
+    text-align: center;
+    margin: auto;
+    background-color: crimson;
+
+}
+.dominacao{
+    width: 39%;
+    height: 600px;
+    font-size: 17px;
+    color: #fff;
+    float: left;
+    font-family: sans-serif;
+}
+.dominacao h4{
+    margin-top: 20px;
+    cursor: pointer;
+}
+.dominacao button{
+    background-color: #23232e;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.dominacao h4:hover{
+    cursor: pointer;
+    color: #23232e;
+}
+.dominacao button:hover{
+    cursor: pointer;
+    color: #23232e;
+    background-color: #fff;
+}
+.inf{
+    width: 55%;
+    height: 300px;
+    background-color: #23232e;
+    color: #fff;
+    float: right;
+    margin-top: 30px;
+}
+
+.css{
+    width: 120px;
+    height: 100px;
+    margin: 10px 10px;
+    float: left;
+    background-color: crimson;
+    cursor: pointer;
+}
+
+.css h6{
+    font-size: 18px;
+    color: #fff;
+
+}
+.css h4{
+    margin-top: 15px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.css:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+.css h6:hover{
+    cursor: pointer;
+    color: crimson;
+}
+.css h4:hover{
+    cursor: pointer;
+    color: crimson;
+}
+
+.html{
+    width: 150px;
+    height: 100px;
+    margin: 10px 10px;
+    float: left;
+    background-color: crimson;
+    cursor: pointer;
+}
+
+.html h6{
+    font-size: 18px;
+    color: #fff;
+
+}
+.html h4{
+    margin-top: 15px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.html:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+.html h6:hover{
+    cursor: pointer;
+    color: crimson;
+}
+.html h4:hover{
+    cursor: pointer;
+    color: crimson;
+}
+
+.js{
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px;
+    float: left;
+    background-color: crimson;
+    cursor: pointer;
+}
+
+.js h6{
+    font-size: 18px;
+    color: #fff;
+
+}
+.js h4{
+    margin-top: 15px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.js:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+.js h6:hover{
+    cursor: pointer;
+    color: crimson;
+}
+.js h4:hover{
+    cursor: pointer;
+    color: crimson;
+}
+
+.react{
+    width: 120px;
+    height: 100px;
+    margin: 10px 10px;
+    float: left;
+    background-color: crimson;
+    cursor: pointer;
+}
+
+.react h6{
+    font-size: 18px;
+    color: #fff;
+
+}
+.react h4{
+    margin-top: 15px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.react:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+.react h6:hover{
+    cursor: pointer;
+    color: crimson;
+}
+.react h4:hover{
+    cursor: pointer;
+    color: crimson;
+}
+
+.botstrap{
+    width: 150px;
+    height: 100px;
+    margin: 10px 10px;
+    float: left;
+    background-color: crimson;
+    cursor: pointer;
+}
+
+.botstrap h6{
+    font-size: 18px;
+    color: #fff;
+
+}
+.botstrap h4{
+    margin-top: 15px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.botstrap:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+.botstrap h6:hover{
+    cursor: pointer;
+    color: crimson;
+}
+.botstrap h4:hover{
+    cursor: pointer;
+    color: crimson;
+}
+
+
+
+.Node{
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px;
+    float: left;
+    background-color: crimson;
+    cursor: pointer;
+}
+
+.Node h6{
+    font-size: 18px;
+    color: #fff;
+
+}
+.Node h4{
+    margin-top: 15px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.Node:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+.Node h6:hover{
+    cursor: pointer;
+    color: crimson;
+}
+.Node h4:hover{
+    cursor: pointer;
+    color: crimson;
+}
+
+ /* Minhas especialidade atualmente */
+
+
+
+.fixo4{
+    max-width: 1000px;
+    max-height: 900px;
+    text-align: center;
+    margin-top: 20px;
+    margin: auto;
+    background-color: #23232e;
+}
+
+
+
+.contato{
+    max-width: 1000px;
+    height: 500px;
+    background-color: crimson;
+    text-align: center;
+    margin: auto;
+}
+.numero{
+    max-width:500px;
+    height: 320px;
+    background-color: #23232e;
+    float: left;
+}
+.numero h4{
+   font-size: 50px;
+   color: #fff;
+
+}
+.numero h6{
+    margin-top: 30px;
+    font-size: 24px;
+    float: left;
+    color: #fff;
+    margin-left: 10px;
+
+ }
+ .numero a{
+     color: #fff;
+ }
+ .borda{
+    width: 70%;
+    height: 320px;
+    background-color: #23232e;
+    float: right;
+ }
+
+ /* Contato para falarem comigo */
+
+
+ @media(max-width:999px) and (min-width:700px) {
+     
+        body{
+            overflow-x: hidden;
+        }
+        .fixoo{
+            margin: auto;
+            text-align: center;
+            width: 700px;
+            background-color: #23232e;
+        }
+        nav{
+            width: 700px;
+        }
+       
+        .nav-list{
+            position: absolute;
+            top: 8vh;
+            right: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: #23232e;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            display: none;
+        }
+        .nav-list li{
+            margin-left: 0;
+            opacity: 1;
+            font-size: 30px;
+            padding-top: 50px;
+            display: block;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+    
+        }
+        .mobile-menu{
+            display: block;
+        }
+
+        /* menu */
+
+
+        .nome{
+            width: 650px;
+            margin-left: 120px;
+            padding-top: 200px;
+            height: 50vh;
+            text-align: center;
+            margin: auto;
+        }
+        
+        .informacao h1{
+            font-size: 75px;
+            color: #fff;
+            cursor: pointer;
+            float: left;
+        }
+
+        /* inicio mobile */
+
+        .fixo{
+            margin: auto;
+            text-align: center;
+            width: 700px;
+        }
+
+        .image{
+            width: 350px;
+            height: 300px;
+            background-color: white;
+            margin: auto;
+            align-items: center;
+        }
+        .img{
+            background:url(./IMG_20211213_132333_009-removebg.png);
+            background-size: cover; 
+            width: 350px;
+            height: 300px;
+            padding-top: 00px;
+             float: right;
+
+        }
+        .oqfaco{
+           width: 340px;
+           height: 300px;
+           font-family: sans-serif;
+           float: left;
+
+        }
+        
+        .oqfaco h4:hover{
+            cursor: pointer;
+             color: crimson;
+        }
+        .oqfaco span:hover{
+            cursor: pointer;
+             color: #fff;
+        }
+        .oqfaco h3:hover{
+            cursor: pointer;
+             color: crimson;
+        }
+        
+        .oqfaco h3{
+            margin-top: 0px;
+            font-size: 19px;
+            color: #fff;
+        
+        }
+        .oqfaco h4{
+            font-size: 17px;
+            margin-top: 20px;
+            cursor: pointer;
+            color: #fff;
+        
+        }
+        .oqfaco span{
+               color: crimson;
+        }
+        
+        .oqfaco button{
+            margin-top: 40px;
+            width: 300px;
+            height: 80px;
+            color: #fff;
+            background-color: crimson;
+            border-radius: 10px;
+        }
+        .oqfaco button:hover{
+            cursor: pointer;
+            background-color: #fff;
+             color: crimson;
+        }
+
+        /* informaçao sobre mim mobile */
+        
+
+        .fixo2{
+            margin: auto;
+            text-align: center;
+            width: 700px;
+        }
+
+        .todos-alunos{
+            max-width: 700px;
+            margin: auto;
+            text-align: center;
+            height: 100vh;
+            overflow: scroll;
+            background-color: crimson
+        }
+        .aluno1 img{
+            width: 100px;
+            margin-top:10px;
+            height: 100vh;
+            float: left;
+        
+            
+        }
+        
+        .aluno1{
+            width: 100%;
+            height: 200px;
+            margin: auto;
+            text-align: center;
+        }
+        .img1{
+            background-color: crimson;
+           width: 200px;
+           height: 200px;
+           float: left;
+           margin-left: 10px;
+        
+        }
+        .img1 img{
+            background-color: #23232e;
+            width: 200px;
+            height: 200px;
+            float: left;
+        
+         }
+         .linkedin{
+            background-color: #23232e;
+            float: left;
+            margin-left: 20px;
+             width: 440px;
+             height: 200px;
+             font-size: 18px;
+             color: #fff;
+             font-family: sans-serif;
+             margin-top: 10px;
+         }
+         .link{
+             width: 100px;
+             height: 100px;
+             background-color: white;
+             margin: auto;
+             text-align: center;
+             margin-top: 10px;
+         }
+         .link img{
+            width: 100%;
+            height: 100px;
+         }
+         .link button{
+             margin-top: 15px;
+             float: right;
+             margin-right: -140px;
+             font-size: 12px;
+             cursor: pointer;
+             height: 70px;
+             width: 120px;
+             background-color: crimson;
+             border-radius: 5px;
+             color: #fff;
+         }
+         .link button:hover{
+             cursor: pointer;
+             background-color: #fff;
+             color: crimson;
+         }
+
+         /* minha turma mobile */
+        
+
+        .fixo3{
+            margin: auto;
+            text-align: center;
+            width: 700px;
+            background-color: #23232e;
+        }
+
+        .especialidade{
+            max-width: 700px;
+            height: 90vh;
+            text-align: center;
+            margin: auto;
+      
+      }
+      
+      .sabermais{
+        width: 690px;
+        margin-top: -50px;
+          height: 400px;
+          text-align: center;
+          margin: auto;
+          background-color: crimson;
+      
+      }
+      .dominacao{
+          width: 230px;
+          height: 300px;
+          font-size: 15px;
+          margin-top: 30px;
+          color: #fff;
+          float: left;
+          font-family: sans-serif;
+      }
+      .dominacao h4{
+          margin-top: -30px;
+          cursor: pointer;
+      }
+      .dominacao button{
+          background-color: crimson;
+          color: #fff;
+          width: 300px;
+          height: 80px;
+          border-radius: 10px;
+          margin-top: 20px;
+          display: none;
+      }
+      .dominacao h4:hover{
+          cursor: pointer;
+          color: #23232e;
+      }
+      .dominacao button:hover{
+          cursor: pointer;
+          color: #23232e;
+          background-color: #fff;
+      }
+      .inf{
+          width: 450px;
+          height: 300px;
+          background-color: #23232e;
+          color: #fff;
+          float: right;
+          margin-top: 30px;
+      }
+      /* as minhas espcialidade atualmenete mobile */
+      
+
+
+        .fixo4{
+            margin: auto;
+            text-align: center;
+            width: 700px;
+            background-color: rgb(187, 197, 50);
+        }
+
+    }
+    
+
+
+    @media(max-width:699px) and (min-width:426px) {
+     
+        body{
+            overflow-x: hidden;
+        }
+        .fixoo{
+            margin: auto;
+            text-align: center;
+            width: 699px;
+            background-color: #23232e;
+            align-items: center;
+        }
+        nav{
+            width: 699px;
+            text-align: center;
+            margin: auto;
+        }
+       
+        .nav-list{
+            position: absolute;
+            top: 8vh;
+            right: 0;
+            width: 600px;
+            height: 200vh;
+            background-color: #23232e;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            display: none;
+        }
+        .nav-list li{
+            margin-left: 0;
+            opacity: 1;
+            font-size: 30px;
+            padding-top: 50px;
+            display: block;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+    
+        }
+        .mobile-menu{
+            display: block;
+        }
+
+        /* menu */
+
+
+        .nome{
+            width: 650px;
+            margin-left: 120px;
+            padding-top: 200px;
+            height: 50vh;
+            text-align: center;
+            margin: auto;
+        }
+        
+        .informacao h1{
+            font-size: 75px;
+            color: #fff;
+            cursor: pointer;
+            float: left;
+        }
+
+        /* inicio mobile */
+
+        .fixo{
+            margin: auto;
+            text-align: center;
+            width: 700px;
+        }
+
+        .image{
+            width: 350px;
+            height: 300px;
+            background-color: white;
+            margin: auto;
+            align-items: center;
+        }
+        .img{
+            background:url(./IMG_20211213_132333_009-removebg.png);
+            background-size: cover; 
+            width: 350px;
+            height: 300px;
+            padding-top: 00px;
+             float: right;
+
+        }
+        .oqfaco{
+           width: 340px;
+           height: 300px;
+           font-family: sans-serif;
+           float: left;
+
+        }
+        
+        .oqfaco h4:hover{
+            cursor: pointer;
+             color: crimson;
+        }
+        .oqfaco span:hover{
+            cursor: pointer;
+             color: #fff;
+        }
+        .oqfaco h3:hover{
+            cursor: pointer;
+             color: crimson;
+        }
+        
+        .oqfaco h3{
+            margin-top: 0px;
+            font-size: 19px;
+            color: #fff;
+        
+        }
+        .oqfaco h4{
+            font-size: 17px;
+            margin-top: 20px;
+            cursor: pointer;
+            color: #fff;
+        
+        }
+        .oqfaco span{
+               color: crimson;
+        }
+        
+        .oqfaco button{
+            margin-top: 40px;
+            width: 350px;
+            height: 100px;
+            color: #fff;
+            background-color: crimson;
+            border-radius: 10px;
+            margin-left: 160px;
+        }
+        .oqfaco button:hover{
+            cursor: pointer;
+            background-color: #fff;
+             color: crimson;
+        }
+
+        /* informaçoes sobre me mobile */
+        
+
+        .fixo2{
+            margin: auto;
+            text-align: center;
+            width: 699px;
+            background-color: rgb(50, 187, 197);
+        }
+
+        .todos-alunos{
+            max-width: 699px;
+            margin: auto;
+            text-align: center;
+            height: 100vh;
+            overflow: scroll;
+            background-color: crimson
+        }
+        .aluno1 img{
+            width: 100px;
+            margin-top:10px;
+            height: 100vh;
+            float: left;
+        
+            
+        }
+        
+        .aluno1{
+            width: 100%;
+            height: 200px;
+            margin: auto;
+            text-align: center;
+        }
+        .img1{
+            background-color: crimson;
+           width: 200px;
+           height: 200px;
+           float: left;
+           margin-left: 10px;
+        
+        }
+        .img1 img{
+            background-color: #23232e;
+            width: 200px;
+            height: 200px;
+            float: left;
+        
+         }
+         .linkedin{
+            background-color: #23232e;
+            float: left;
+            margin-left: 20px;
+             width: 440px;
+             height: 200px;
+             font-size: 18px;
+             color: #fff;
+             font-family: sans-serif;
+             margin-top: 10px;
+         }
+         .link{
+             width: 100px;
+             height: 100px;
+             background-color: white;
+             margin: auto;
+             text-align: center;
+             margin-top: 10px;
+         }
+         .link img{
+            width: 100%;
+            height: 100px;
+         }
+         .link button{
+             margin-top: 15px;
+             float: right;
+             margin-right: -140px;
+             font-size: 12px;
+             cursor: pointer;
+             height: 70px;
+             width: 120px;
+             background-color: crimson;
+             border-radius: 5px;
+             color: #fff;
+         }
+         .link button:hover{
+             cursor: pointer;
+             background-color: #fff;
+             color: crimson;
+         }
+
+         /* minha turma mobile */
+        
+
+        .fixo3{
+            margin: auto;
+            text-align: center;
+            width: 699px;
+            background-color: #23232e;
+        }
+
+        .especialidade{
+            max-width: 699px;
+            height: 90vh;
+            text-align: center;
+            margin: auto;
+      
+      }
+      .child3{
+        background-color: #23232e;
+
+      }
+      
+      .sabermais{
+        width: 650px;
+        margin-top: -50px;
+          height: 650px;
+          text-align: center;
+          margin: auto;
+          background-color: crimson;
+      
+      }
+      .dominacao{
+          width: 280px;
+          height: 450px;
+          font-size: 16px;
+          color: #fff;
+          float: left;
+          font-family: sans-serif;
+          margin-top: 80px;
+      }
+      .dominacao h4{
+          margin-top: -30px;
+          cursor: pointer;
+      }
+      .dominacao button{
+        background-color: #fff;
+        color: #23232e;
+          width: 290px;
+          height: 80px;
+          border-radius: 10px;
+          margin-top: 100px;
+          display: none;
+      }
+      .dominacao h4:hover{
+          cursor: pointer;
+          color: #23232e;
+      }
+      .dominacao button:hover{
+          cursor: pointer;
+          color: #fff;
+          background-color: #23232e;
+      }
+      .inf{
+          width: 350px;
+          height: 500px;
+          background-color: #23232e;
+          color: #fff;
+          float: right;
+          margin-top: 30px;
+      }
+
+      .css{
+        width: 150px;
+        height: 100px;
+        margin: 10px 10px;
+        float: left;
+        background-color: crimson;
+        cursor: pointer;
+    }
+    
+    
+    
+    .html{
+        width: 150px;
+        height: 100px;
+        margin: 10px 10px;
+        float: left;
+        background-color: crimson;
+        cursor: pointer;
+    }
+    
+    
+    
+    .js{
+        width: 150px;
+        height: 100px;
+        margin: 10px 10px;
+        float: left;
+        background-color: crimson;
+        cursor: pointer;
+    }
+    
+    
+    .react{
+        width: 150px;
+        height: 100px;
+        margin: 10px 10px;
+        float: left;
+        background-color: crimson;
+        cursor: pointer;
+    }
+    
+    
+    
+    .botstrap{
+        width: 150px;
+        height: 100px;
+        margin: 10px 10px;
+        float: left;
+        background-color: crimson;
+        cursor: pointer;
+    }
+    
+    
+    
+    
+    
+    .Node{
+        width: 150px;
+        height: 100px;
+        margin: 10px 10px;
+        float: left;
+        background-color: crimson;
+        cursor: pointer;
+    }
+    
+        .fixo4{
+            margin: auto;
+            text-align: center;
+            width: 699px;
+            background-color: rgb(187, 197, 50);
+        }
+
+    }
+    /* Minhas espcialidades atualmente. mobile */
+
+ 
+
+    @media(max-width:425px) {
+     
+        body{
+            overflow-x: hidden;
+        }
+        .fixoo{
+            margin: auto;
+            text-align: center;
+            width: 425px;
+            background-color: #23232e;
+            align-items: center;
+        }
+        nav{
+            width: 699px;
+            text-align: center;
+            margin: auto;
+        }
+       
+        .nav-list{
+            position: absolute;
+            top: 8vh;
+            right: 0;
+            width: 699px;
+            height: 200vh;
+            background-color: #23232e;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            display: none;
+        }
+        .nav-list li{
+            margin-left: 0;
+            opacity: 1;
+            font-size: 30px;
+            padding-top: 50px;
+            display: block;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+    
+        }
+        .mobile-menu{
+            display: block;
+        }
+
+        /* menu */
+
+
+        .nome{
+            width: 650px;
+            margin-left: 120px;
+            padding-top: 200px;
+            height: 50vh;
+            text-align: center;
+            margin: auto;
+        }
+        
+        .informacao h1{
+            font-size: 75px;
+            color: #fff;
+            cursor: pointer;
+            float: left;
+        }
+
+        /* Inicio mobile */
+
+        .fixo{
+            margin: auto;
+            text-align: center;
+            width: 500px;
+            height: 500px;
+        }
+
+        .image{
+            width: 300px;
+            height: 300px;
+            background-color: white;
+            float: right;
+            margin-right: -170px;
+
+        }
+        .img{
+            background:url(./IMG_20211213_132333_009-removebg.png);
+            background-size: cover; 
+            width: 300px;
+            height: 300px;
+            padding-top: 00px;
+             float: right;
+             margin-right: 0px;
+
+        }
+        .oqfaco{
+           width: 350px;
+           height: 300px;
+           font-family: sans-serif;
+           float: left;
+
+        }
+        
+        .oqfaco h4:hover{
+            cursor: pointer;
+             color: crimson;
+        }
+        .oqfaco span:hover{
+            cursor: pointer;
+             color: #fff;
+        }
+        .oqfaco h3:hover{
+            cursor: pointer;
+             color: crimson;
+        }
+        
+        .oqfaco h3{
+            margin-top: 0px;
+            font-size: 19px;
+            color: #fff;
+        
+        }
+        .oqfaco h4{
+            font-size: 18px;
+            margin-top: 20px;
+            cursor: pointer;
+            color: #fff;
+        
+        }
+        .oqfaco span{
+               color: crimson;
+        }
+        
+        .oqfaco button{
+            margin-top: 20px;
+            width: 350px;
+            height: 100px;
+            color: #fff;
+            background-color: crimson;
+            border-radius: 10px;
+            margin-left: 160px;
+        }
+        .oqfaco button:hover{
+            cursor: pointer;
+            background-color: #fff;
+             color: crimson;
+        }
+        /* informaçoes sobre me mible */
+        
+
+        .fixo2{
+            margin: auto;
+            text-align: center;
+            width: 699px;
+        }
+
+        .todos-alunos{
+            max-width: 699px;
+            margin: auto;
+            text-align: center;
+            height: 100vh;
+            overflow: scroll;
+            background-color: crimson
+        }
+        .aluno1 img{
+            width: 100px;
+            margin-top:10px;
+            height: 100vh;
+            float: left;
+        
+            
+        }
+        
+        .aluno1{
+            width: 100%;
+            height: 200px;
+            margin: auto;
+            text-align: center;
+        }
+        .img1{
+            background-color: crimson;
+           width: 200px;
+           height: 200px;
+           float: left;
+           margin-left: 10px;
+        
+        }
+        .img1 img{
+            background-color: #23232e;
+            width: 200px;
+            height: 200px;
+            float: left;
+        
+         }
+         .linkedin{
+            background-color: #23232e;
+            float: left;
+            margin-left: 20px;
+             width: 440px;
+             height: 200px;
+             font-size: 18px;
+             color: #fff;
+             font-family: sans-serif;
+             margin-top: 10px;
+         }
+         .link{
+             width: 100px;
+             height: 100px;
+             background-color: white;
+             margin: auto;
+             text-align: center;
+             margin-top: 10px;
+         }
+         .link img{
+            width: 100%;
+            height: 100px;
+         }
+         .link button{
+             margin-top: 15px;
+             float: right;
+             margin-right: -140px;
+             font-size: 12px;
+             cursor: pointer;
+             height: 70px;
+             width: 120px;
+             background-color: crimson;
+             border-radius: 5px;
+             color: #fff;
+         }
+         .link button:hover{
+             cursor: pointer;
+             background-color: #fff;
+             color: crimson;
+         }
+
+
+         /* Minha turma mobile */
+        
+
+        .fixo3{
+            margin: auto;
+            text-align: center;
+            width: 699px;
+            background-color: #23232e;
+        }
+
+        .especialidade{
+            max-width: 699px;
+            height: 90vh;
+            text-align: center;
+            margin: auto;
+      
+      }
+      .child3{
+        background-color: #23232e;
+
+      }
+      
+      .sabermais{
+        width: 650px;
+        margin-top: -50px;
+          height: 600px;
+          text-align: center;
+          margin: auto;
+          background-color: crimson;
+      
+      }
+      .dominacao{
+          width: 280px;
+          height: 450px;
+          font-size: 17px;
+          color: #fff;
+          float: left;
+          font-family: sans-serif;
+          margin-top: 80px;
+      }
+      .dominacao h4{
+          margin-top: -30px;
+          cursor: pointer;
+      }
+      .dominacao button{
+        background-color: #fff;
+        color: #23232e;
+          width: 290px;
+          height: 80px;
+          border-radius: 10px;
+          margin-top: 100px;
+          display: none;
+      }
+      .dominacao h4:hover{
+          cursor: pointer;
+          color: #23232e;
+      }
+      .dominacao button:hover{
+          cursor: pointer;
+          color: #fff;
+          background-color: #23232e;
+      }
+      .inf{
+          width: 350px;
+          height: 500px;
+          background-color: #23232e;
+          color: #fff;
+          float: right;
+          margin-top: 30px;
+      }
+
+      .css{
+        width: 150px;
+        height: 100px;
+        margin: 10px 10px;
+        float: left;
+        background-color: crimson;
+        cursor: pointer;
+    }
+    
+    
+    
+    .html{
+        width: 150px;
+        height: 100px;
+        margin: 10px 10px;
+        float: left;
+        background-color: crimson;
+        cursor: pointer;
+    }
+    
+    
+    
+    .js{
+        width: 150px;
+        height: 100px;
+        margin: 10px 10px;
+        float: left;
+        background-color: crimson;
+        cursor: pointer;
+    }
+    
+    
+    .react{
+        width: 150px;
+        height: 100px;
+        margin: 10px 10px;
+        float: left;
+        background-color: crimson;
+        cursor: pointer;
+    }
+    
+    
+    
+    .botstrap{
+        width: 150px;
+        height: 100px;
+        margin: 10px 10px;
+        float: left;
+        background-color: crimson;
+        cursor: pointer;
+    }
+    
+    
+    
+    
+    
+    .Node{
+        width: 150px;
+        height: 100px;
+        margin: 10px 10px;
+        float: left;
+        background-color: crimson;
+        cursor: pointer;
+    }
+    
+        .fixo4{
+            margin: auto;
+            text-align: center;
+            width: 699px;
+            background-color: rgb(187, 197, 50);
+        }
+
+    }
+    /* minhas especialidade mobile. */
+
+ 
+
